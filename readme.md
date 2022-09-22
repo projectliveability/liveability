@@ -5,7 +5,7 @@ gcloud config set project ${PROJECT_ID}
 git clone https://github.com/projectliveability/liveability
 
 #2.bash to create service account for cloud build
-cd mvp-liveability-setup
+cd liveability
 bash CloudBuild_SvcAccount_Setup.sh
 
 #3.Create a composer
@@ -31,7 +31,7 @@ In demo
 Now run dataflow (not able to figure out how to use cloud composer to trigger till now)
 --------------------
 cd ..
-cd mvp-liveability-setup
+cd liveability
 cd dataflow
 bash dataflow_run.sh
 
