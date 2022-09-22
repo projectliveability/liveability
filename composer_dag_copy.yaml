@@ -1,6 +1,6 @@
 
 steps:
-- id: 'DAG Copy'
+- id: 'branch name'
   name: 'alpine'
   entrypoint: 'sh'
   args:
