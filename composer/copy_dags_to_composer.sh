@@ -1,5 +1,5 @@
 # Codes to create a service account and add the necessary roles
-export PROJECT_ID="proj-liveability-ment360"
+export PROJECT_ID="project-liveability-final"
 export LOCATION="australia-southeast1"
 export KEY_PATH="gs://${PROJECT_ID}/credentials/key.json"
 
